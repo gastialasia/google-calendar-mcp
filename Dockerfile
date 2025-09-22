@@ -36,7 +36,7 @@ RUN mkdir -p /home/nodejs/.config/google-calendar-mcp && \
 USER nodejs
 
 # Expose port for HTTP mode (optional)
-EXPOSE 3000
+EXPOSE 8002
 
 # Default command - run directly to avoid npm output
 CMD ["node", "build/index.js"]
